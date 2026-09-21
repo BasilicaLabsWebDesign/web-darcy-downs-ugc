@@ -1,0 +1,14 @@
+{
+  "name": "darcydowns-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pitch demo for Darcy Downs: new one-page site, her current site, and the offer",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "check": "wrangler deploy --dry-run"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

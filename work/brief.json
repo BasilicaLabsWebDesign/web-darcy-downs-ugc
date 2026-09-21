@@ -1,0 +1,299 @@
+{
+  "client": "darcydowns",
+  "captured": "2026-09-21",
+  "capture_method": "Clean capture not possible from the build environment (egress to canva.site blocked). Sources are the owner's five iPhone screenshots of the live page (IMG_0391-0395, 21 Sep 2026), the raw HTML fetch, and the search-index text of the site.",
+  "brand": {
+    "colors": {
+      "value": [
+        "#F9DEDB",
+        "#FFFAF6",
+        "#E9D2CD",
+        "#302D2C",
+        "#CA6B5C",
+        "#693843"
+      ],
+      "source": "site:screenshot IMG_0391 (pixel-sampled: band pink, cream, card frame, ink, italic accent, button plum)",
+      "seen": "2026-09-21",
+      "confidence": "confirmed"
+    },
+    "display_font": {
+      "value": "Playfair Display (bold, with bold italic as the accent)",
+      "source": "site:screenshot IMG_0391 (identified by eye - old-style figures in \"100's\", italic forms; confirm against the Canva file)",
+      "seen": "2026-09-21",
+      "confidence": "unconfirmed"
+    },
+    "body_font": {
+      "value": "Inter (house default; hers is a neutral grotesque)",
+      "source": "house-style default",
+      "seen": "2026-09-21",
+      "confidence": "unconfirmed"
+    },
+    "logo": {
+      "value": null,
+      "source": "site:screenshot IMG_0391 - no logo, the name is set in type",
+      "seen": "2026-09-21",
+      "confidence": "confirmed"
+    },
+    "tone": {
+      "value": "first person, warm, playful - \"Content with personality.\"",
+      "source": "site:screenshot IMG_0391, IMG_0395",
+      "seen": "2026-09-21",
+      "confidence": "confirmed"
+    }
+  },
+  "facts": {
+    "name": {
+      "value": "Darcy Downs, UGC creator",
+      "source": "site:screenshot IMG_0391 hero",
+      "seen": "2026-09-21",
+      "confidence": "confirmed"
+    },
+    "tagline": {
+      "value": "Content with personality.",
+      "source": "site:screenshot IMG_0391 hero",
+      "seen": "2026-09-21",
+      "confidence": "confirmed"
+    },
+    "intro": {
+      "value": "Hi, I'm Darcy! I turn everyday moments into compelling brand stories through thoughtful, relatable content that connects with audiences.",
+      "source": "site:screenshot IMG_0391 hero",
+      "seen": "2026-09-21",
+      "confidence": "confirmed"
+    },
+    "offering": {
+      "value": "UGC video for lifestyle, pet, health and wellness, and property brands, plus product, lifestyle and property photography",
+      "source": "site:screenshot IMG_0392-0394 section headings and descriptions",
+      "seen": "2026-09-21",
+      "confidence": "confirmed"
+    },
+    "pets_on_camera": {
+      "value": "A dog and a cat appear across the Pet stills and the photography",
+      "source": "site:screenshot IMG_0393 (Tuggs, PawFit, FreshPet, FitLitter stills), IMG_0395 (polaroid)",
+      "seen": "2026-09-21",
+      "confidence": "unconfirmed"
+    },
+    "brands_claim": {
+      "value": "Trusted by 100's of brands.",
+      "source": "site:screenshot IMG_0391",
+      "seen": "2026-09-21",
+      "confidence": "confirmed"
+    },
+    "brands_named": {
+      "value": [
+        "AA",
+        "Allianz",
+        "Ryobi",
+        "Rail Europe",
+        "Bensons for Beds",
+        "Joe & The Juice",
+        "Mario Badescu",
+        "Butternut Box",
+        "Freshpet",
+        "Tuggs",
+        "Pooch & Mutt",
+        "Pure Pet",
+        "Marley Bones",
+        "VitalPaws",
+        "PawFit",
+        "SMARTY",
+        "Cuvva",
+        "Any Van",
+        "New York Bakery",
+        "fussy",
+        "NÉIA",
+        "SunVit-D3",
+        "Ditto",
+        "Lazy Tan",
+        "WildMint",
+        "Frameless",
+        "Marro",
+        "London Theatre",
+        "O'Pasta",
+        "Speak",
+        "Vonder",
+        "Merry Lakes"
+      ],
+      "source": "site:screenshot IMG_0391 logo wall (27 of 32 logos legible) + IMG_0392-0394 video captions",
+      "seen": "2026-09-21",
+      "confidence": "confirmed"
+    },
+    "stats_used": {
+      "value": {
+        "Total views": "385,135",
+        "Accounts reached": "258,829",
+        "Saves": "18K",
+        "Shares": "2,649"
+      },
+      "source": "site:screenshot IMG_0395 \"Real results\" row",
+      "seen": "2026-09-21",
+      "confidence": "confirmed"
+    },
+    "email": {
+      "value": "Darcy0405ugc@gmail.com",
+      "source": "site:search-index text (the current page hides it behind the Get in touch button)",
+      "seen": "2026-09-21",
+      "confidence": "unconfirmed"
+    },
+    "tiktok": {
+      "value": "https://www.tiktok.com/@darcy.ugc.creator",
+      "source": "site:search-index text; handle also at site:screenshot IMG_0391 top-left",
+      "seen": "2026-09-21",
+      "confidence": "confirmed"
+    },
+    "instagram": {
+      "value": "https://www.instagram.com/darcy.ugc.creator",
+      "source": "site:search-index text; footer links at site:screenshot IMG_0395",
+      "seen": "2026-09-21",
+      "confidence": "confirmed"
+    },
+    "section_lines": {
+      "value": {
+        "Pet": "Authentic pet content, from product demonstrations to everyday routines.",
+        "Health & Wellness": "Health and wellness content, including testimonials and educational videos.",
+        "Lifestyle": "Lifestyle videos, product demonstrations and relatable brand storytelling.",
+        "Property": "Property showcases and interior-focused content.",
+        "Photography": "Product, lifestyle and property photography."
+      },
+      "source": "site:screenshot IMG_0392-0394",
+      "seen": "2026-09-21",
+      "confidence": "confirmed"
+    },
+    "work_captions": {
+      "value": {
+        "Pet": [
+          "Pure Pet - Mock Interview | Experience-Led",
+          "SereneLife - Comedy Led | Product Showcase",
+          "PawFit - Walk and Yap | Product Testimonial",
+          "Tuggs - Pet | Testimonial",
+          "Crumb - Walk and Yap | Product Testimonial",
+          "FitLitter - Pet Product Switch & Testimonial",
+          "FreshPet - Seasonal | Testimonial",
+          "Tuggs - Hook-Led | Product Showcase"
+        ],
+        "Health & Wellness": [
+          "Alternaleaf - Service | Testimonial-Style Ad",
+          "Bensons for Beds - Sleep & Wellness | Educational",
+          "FasTreat - Service | Organic Conten[t]",
+          "Ditto - Product Showcase | Educational",
+          "Make Waves - eProduct Focus | Testimonial",
+          "SunVitD3 - Health | Product Range Showcase",
+          "Ditto - Product Showcase | Educational",
+          "Mario Badescu - Skincare | Educational"
+        ],
+        "Lifestyle": [
+          "O'Pasta - Hospitality | Experience-Led",
+          "Bed World - Home | Product Showcase",
+          "Any Van - Service | Experience-Led Review",
+          "Ryobi - DIY | Product Demonstration",
+          "PlayZone - Apps | Walkthrough",
+          "Cuvva - Finance & Insurance | App Demonstration",
+          "Willow - Lifestyle | Product Showcase",
+          "SereneLife - Home | Lifestyle Integration & Product Demo"
+        ],
+        "Property": [
+          "Vonder - Property | Quick-Fire Apartment Tour",
+          "Merry Lakes - AirBnB | Girls' Trip & Experience",
+          "Radlett - AirBnB | Trend-Led Split-Screen",
+          "Vonder - Property | Apartment Tour & Showcase",
+          "Merry Lakes - AirBnB | Trend-Led",
+          "Merry Lakes - Travel | Organic Experience Showcase",
+          "Vonder - Property | Apartment Tour & Showcase",
+          "Radlett - AirBnB | Trend-Led"
+        ]
+      },
+      "source": "site:screenshot IMG_0392-0394",
+      "seen": "2026-09-21",
+      "confidence": "confirmed"
+    },
+    "testimonials_used": {
+      "value": [
+        {
+          "brand": "NÉIA",
+          "quote": "Darcy was an absolute pleasure to work with! Her creativity, attention to detail, and passion truly shine through to bring NÉIA to life. She made the whole process so enjoyable and I would highly recommend her to anyone looking for someone reliable, talented and genuinely lovely to work with."
+        },
+        {
+          "brand": "SMARTY",
+          "quote": "Thanks so much for sharing the content with Fiona, the client loved how natural and seamless the conversation feels!"
+        },
+        {
+          "brand": "New York Bakery",
+          "quote": "Absolutely love your videos – particularly when the screen comes up and you're scrolling so thank you."
+        }
+      ],
+      "source": "site:screenshot IMG_0395 (each signed only \"Brand partner\")",
+      "seen": "2026-09-21",
+      "confidence": "confirmed"
+    }
+  },
+  "conflicts": [
+    {
+      "field": "stats",
+      "site": "411K likes and 41K comments shown beside 385,135 total views",
+      "issue": "likes cannot exceed views; one of the figures is mistyped",
+      "on_page": "views, accounts reached, saves and shares only",
+      "question": "What are the right likes and comments figures, and what platform and period do the results cover?"
+    },
+    {
+      "field": "work list",
+      "site": "current screenshots show Lifestyle / Health & Wellness / Pet / Property",
+      "search-index": "older text lists RailEurope, Loop Earplugs, Workaway and Booking.com pieces",
+      "on_page": "site (current screenshots)",
+      "question": "Are the Rail Europe, Loop, Workaway and Booking.com pieces still available to show?"
+    },
+    {
+      "field": "brand spelling",
+      "site": "\"Any Van\", \"SunVitD3\", \"FreshPet\"",
+      "brand's own": "AnyVan, SunVit-D3, Freshpet",
+      "on_page": "site spelling in the clip captions; the logo's own spelling in the brand list where a logo is on the wall",
+      "question": "Happy for brand names to follow each brand's own spelling?"
+    }
+  ],
+  "gaps": [
+    "No location, age bracket or kit anywhere public - no About section built.",
+    "No rates, packages, turnaround or usage-rights terms - none stated on the new page.",
+    "Testimonials carry no name or role.",
+    "Five of the 32 logos were not legible in the screenshot and are left out of the brand list.",
+    "No video files or full-size images: every still and photo on the demo is a crop from a phone screenshot, upscaled 2x."
+  ],
+  "questions": [
+    "What are the right likes and comments figures, and what platform and period do the results cover?",
+    "Is Darcy0405ugc@gmail.com still the address for briefs?",
+    "Are the dog and the cat yours - and can the page say so?",
+    "Where are you based, and do you travel for shoots?",
+    "Do you want rates or a rate-card request on the page? Turnaround and usage rights?",
+    "Can any testimonial carry a name or job title?",
+    "Which four pieces per category do you want leading - the demo picks one per brand?",
+    "Can you send the original video files and photos? The demo uses screenshot crops.",
+    "Are the Rail Europe, Loop, Workaway and Booking.com pieces still available to show?"
+  ],
+  "photos": [
+    {
+      "file": "assets/img/hero-darcy.webp",
+      "source": "site:screenshot IMG_0391 hero",
+      "theirs": true,
+      "cleared": false
+    },
+    {
+      "file": "assets/img/brief-darcy.webp",
+      "source": "site:screenshot IMG_0395 contact band",
+      "theirs": true,
+      "cleared": false
+    },
+    {
+      "file": "assets/img/pet-*.webp, well-*.webp, life-*.webp, prop-*.webp (16 video stills)",
+      "source": "site:screenshot IMG_0392-0394",
+      "theirs": true,
+      "cleared": false
+    },
+    {
+      "file": "assets/img/photo-*.webp (6 photographs)",
+      "source": "site:screenshot IMG_0394 Photography",
+      "theirs": true,
+      "cleared": false
+    }
+  ],
+  "layout": {
+    "skeleton": "A - Tabbed",
+    "reason": "Five distinct bodies of work map straight onto tab panels, which is also the fix for the 32-video scroll. No timetable in the brief, so the hero carries no timetable card. B (single scroll) was the other candidate and would have kept the long scroll."
+  }
+}

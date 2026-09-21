@@ -1,0 +1,10 @@
+node_modules/
+.wrangler/
+.render-check/
+.dev.vars
+.DS_Store
+*.log
+.verify/
+work/*
+!work/brief.json
+scripts-pitch/

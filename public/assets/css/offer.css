@@ -1,0 +1,61 @@
+/* The offer page. Structure and rules from the site-pitch offer template;
+   the --op-* values are harvested from the new site so the two tabs look
+   the same age. */
+:root{
+  --op-bg:#FFFAF6;
+  --op-ink:#302D2C;
+  --op-accent:#F9DEDB;
+  --op-panel:#F9DEDB;
+  --op-dark:#693843;
+  --op-display:"Playfair Display",Georgia,"Times New Roman",serif;
+  --op-body:"Inter",system-ui,-apple-system,sans-serif;
+  --pitch-accent:#CA6B5C;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--op-bg);color:var(--op-ink);
+  font:400 16px/1.6 var(--op-body)}
+h1,h2,h3{font-family:var(--op-display);font-weight:700;
+  line-height:1.08;letter-spacing:-.01em;margin:0 0 .4em;
+  max-width:none;hyphens:none;overflow-wrap:normal;
+  font-variant-numeric:lining-nums} /* law 2 + law 1 */
+h1{font-size:clamp(2.1rem,7.5vw,3.6rem)}            /* law 1: ceiling fits the
+                                                       longest single word at 320px */
+h2{font-size:clamp(1.6rem,4.5vw,2.3rem)}
+p{max-width:65ch}
+section{padding:56px 20px}
+.wrap{max-width:1040px;margin:0 auto}
+.band-dark{background:var(--op-dark);color:#FFFAF6}
+.band-panel{background:var(--op-panel)}
+.kicker{font:600 14px/1 var(--op-body);color:var(--op-accent);margin:0 0 12px}
+.grid{display:grid;gap:18px;
+  grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr))} /* law 3 */
+.card{background:var(--op-bg);border:1px solid #E9D2CD;
+  padding:30px 22px 22px;position:relative}
+.card .tag{position:absolute;top:0;right:0;background:var(--op-dark);
+  color:#FFFAF6;font:600 11.5px/1 var(--op-body);padding:7px 9px}
+.card p{margin:0}
+table{width:100%;border-collapse:collapse;background:var(--op-bg)}
+th,td{padding:13px 14px;border:1px solid #E9D2CD;
+  text-align:left;vertical-align:top;font-size:15px}
+thead th{background:var(--op-dark);color:#FFFAF6;font-family:var(--op-display);
+  font-size:16px}
+td:first-child{width:50%}
+.tape-wrap{overflow-x:visible}
+.price{font:700 clamp(2.6rem,9vw,4rem)/1 var(--op-display);
+  font-variant-numeric:lining-nums}
+.price small{font:600 14px/1.35 var(--op-body);display:block;margin-top:10px;
+  color:inherit;opacity:.8}
+.struck{opacity:.7;font-variant-numeric:lining-nums}
+.struck s{text-decoration-thickness:2px}
+.strip{display:grid;gap:1px;
+  grid-template-columns:repeat(auto-fit,minmax(min(200px,100%),1fr));
+  background:#E9D2CD;border:1px solid #E9D2CD}
+.strip div{background:var(--op-bg);padding:16px;font-size:14.5px}
+.strip b{display:block;font-family:var(--op-display);
+  font-size:18px;margin-bottom:4px;font-variant-numeric:lining-nums}
+.closing{text-align:center}
+.closing p{margin:0 auto;font-size:1.15rem}
+@media (max-width:520px){
+  th,td{padding:11px 10px;font-size:14px}
+}

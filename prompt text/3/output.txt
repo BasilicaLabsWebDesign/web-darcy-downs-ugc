@@ -1,0 +1,20 @@
+Done. v1.2 is on main. I proofread the whole pitch against the brief and against the copy of her page you saved.
+
+One claim was wrong. "Four pieces in each, one brand apiece" sat above the tabs on the new site and in the offer's second fix. Her page has only three property brands, so the Property tab shows Merry Lakes twice, and the Photos tab holds six pieces. The lede now reads "Pick your corner." and the fix reads "One tap to the right corner."
+
+Smaller fixes on the pages:
+- "Only the figures that hold up" is now "Only figures that hold up". That's five words, as the offer sheet asks, and it no longer leaves "up" alone on a second line at desktop widths.
+- "My Portfolio" no longer breaks across two lines.
+- The current-site strip said "Their live site" to Darcy herself. It now says "Your live site", like the rest of the pitch.
+- Three image descriptions are corrected: "thirty-second", "mid-repair", and a stray "reading" removed.
+
+The notes had drifted. The README had started calling the 32 logos hers; they are the brands' own marks, as the brief says. The saved page confirms her email (both Get in touch buttons link to Darcy0405ugc@gmail.com), so the brief now marks it confirmed and that question is gone. The report's questions now match the brief: the four unnamed marks and the brand spellings are added, and the question about leading pieces notes that Property repeats Merry Lakes.
+
+Three things I left for you:
+- The "Results" link in the top bar jumps to the testimonials, not the numbers.
+- The sales-wording rules want the struck-through range as £1.5k–£8k, but the offer sheet keeps £1,500–£8,000. I kept the sheet's version.
+- Five offer subtitles run to two sentences where the sheet asks for one. Fixing that means rewriting the offer, so they stay as they are.
+
+The prompt archive is now at version 3 with your message. Its model file names Anthropic and Claude but not the model, because this environment doesn't allow model names in repository files. The third line says so, and you can fill it in.
+
+Verified: the dry-run deploy passes. All four pages and all five tabs were rendered at 320, 390, 768 and 1440 with the real fonts. Every local link and image resolves, every image loads at its stated size, and nothing overflows. The offer's card titles were measured from 320 to 1920. Screenshots of the new site and the offer, at phone and desktop widths, are attached. The current-site frame still can't load from this machine, and if the repo isn't connected in the Cloudflare dashboard yet, that is still the step that puts it live.

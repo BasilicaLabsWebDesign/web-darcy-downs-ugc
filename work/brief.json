@@ -131,9 +131,9 @@
     },
     "email": {
       "value": "Darcy0405ugc@gmail.com",
-      "source": "site:search-index text (the current page hides it behind the Get in touch button)",
-      "seen": "2026-09-21",
-      "confidence": "unconfirmed"
+      "source": "site:saved page My_Portfolio.html - both Get in touch buttons are mailto: links to it (first found in the search-index text)",
+      "seen": "2026-09-22",
+      "confidence": "confirmed"
     },
     "tiktok": {
       "value": "https://www.tiktok.com/@darcy.ugc.creator",
@@ -245,7 +245,7 @@
       "field": "brand spelling",
       "site": "\"Any Van\", \"SunVitD3\", \"FreshPet\"",
       "brand's own": "AnyVan, SunVit-D3, Freshpet",
-      "on_page": "site spelling in the clip captions; the logo's own spelling in the brand list where a logo is on the wall",
+      "on_page": "site spelling in the clip captions and format cards; the brand's own spelling elsewhere (logo wall and photo alt text, page description)",
       "question": "Happy for brand names to follow each brand's own spelling?"
     }
   ],
@@ -258,15 +258,15 @@
   ],
   "questions": [
     "What are the right likes and comments figures, and what platform and period do the results cover?",
-    "Is Darcy0405ugc@gmail.com still the address for briefs?",
     "Are the dog and the cat yours - and can the page say so?",
     "Where are you based, and do you travel for shoots?",
     "Do you want rates or a rate-card request on the page? Turnaround and usage rights?",
     "Can any testimonial carry a name or job title?",
-    "Which four pieces per category do you want leading - the demo picks one per brand?",
+    "Which four pieces per category do you want leading - the demo picks one per brand where it can, and Property repeats Merry Lakes?",
     "Can you send the original video files and photos? The demo uses screenshot crops.",
     "Are the Rail Europe, Loop, Workaway and Booking.com pieces still available to show?",
-    "Which brands are the four unnamed marks on the logo wall: the owl face, the H, the PK monogram and the teal loop?"
+    "Which brands are the four unnamed marks on the logo wall: the owl face, the H, the PK monogram and the teal loop?",
+    "Happy for brand names to follow each brand's own spelling?"
   ],
   "photos": [
     {

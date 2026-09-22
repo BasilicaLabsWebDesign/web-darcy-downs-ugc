@@ -21,7 +21,7 @@ public/                 everything served - no build step
   404.html
   assets/css            site.css (new site + 404), offer.css
   assets/js             site.js - the brief form writes the email
-  assets/img            stills and photographs (placeholders, see below)
+  assets/img            stills, photographs and logos (see below)
   fonts/                Playfair Display and Inter, self-hosted
   _headers  robots.txt  favicon.svg
 work/brief.json         the sourced brief: every fact on the new site traces here
@@ -53,8 +53,11 @@ deploys. Check first with `npm run check`.
 ## Images are placeholders
 
 Every still, photograph and portrait is a crop from a phone screenshot of her
-current page, upscaled 2x. The 32 logos are the exception: they are the image
-files from her page itself, saved from a browser on 22 September 2026, and
-shown whole. They are hers, shown back to her in her own pitch,
+current page, upscaled 2x. They are hers, shown back to her in her own pitch,
 and not cleared for anything beyond this demo. The finished build takes her
 original files.
+
+The 32 logos are the exception: they are the image files from her page itself,
+saved from a browser on 22 September 2026, and shown whole. They are the
+brands' own marks, used exactly as her page uses them, and not cleared for
+anything beyond this demo either.

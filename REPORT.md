@@ -2,12 +2,39 @@
 
 ## Status
 
-v1.1 released to `main` on 22 September 2026. Not yet live: the first Cloudflare
+v1.2 released to `main` on 22 September 2026. Not yet live: the first Cloudflare
 connection is a manual dashboard step. v1.0 shipped the two builds made before
 this repository existed (the three-tab demo, then the offer page rewritten as
 title-and-subtitle pairs, problem over fix); the site-pitch skill was updated to
 build the offer that way from now on. v1.1 puts the logo files from her own
 page on the brands wall, shown whole, and adds the domain line to the offer.
+v1.2 is a proofreading pass: a claim the page could not back is gone, and the
+pages, the brief and this report agree again.
+
+## v1.2 - the proofreading pass
+
+- "Four pieces in each, one brand apiece" is gone from `/` and from the offer's
+  second fix. Her page has only three property brands, so the Property tab
+  shows Merry Lakes twice, and the Photos tab holds six pieces. The lede now
+  reads "Pick your corner." and the fix "One tap to the right corner."
+- The offer's fourth fix title is five words, as the offer sheet asks ("Only
+  figures that hold up"), and no longer leaves "up" alone on a second line at
+  desktop widths. "My Portfolio" no longer splits across two lines.
+- The current-site strip speaks to her ("Your live site"), as the rest of the
+  pitch does. Three image descriptions on `/` are corrected ("thirty-second",
+  "mid-repair", and a stray "reading" dropped).
+- The saved page (kept with the v1.1 release, in `prompt text/2/`) confirms
+  the email: both Get in touch buttons are mailto: links to
+  Darcy0405ugc@gmail.com. The brief now marks it confirmed and the
+  question about it is gone.
+- The README no longer calls the logos hers; they are the brands' own marks, as
+  the brief records. The questions below now match the brief, with the four
+  unnamed marks and the brand spellings added.
+- Verified: `wrangler deploy --dry-run` passes; all four pages and all five tab
+  panels were rendered at 320, 390, 768 and 1440 with the real fonts. Every
+  local `href` and `src` resolves, every image loads at its stated size, and
+  nothing overflows. The offer's card titles were measured from 320 to 1920.
+  The current-site frame still cannot be loaded from the build machine.
 
 ## v1.1 - the logo wall and the domain line
 
@@ -61,8 +88,6 @@ overflow (`minmax(0,1fr)`). The text-card grids use the law-3 template as writte
   testable. If it refuses, the strip's open-in-its-own-tab link is the remainder.
 - Images are 2x upscaled crops from phone screenshots. Soft on a retina screen.
 - The display face was identified by eye as Playfair Display.
-- The email address comes from the search index text of her page, not from the
-  current screenshots.
 
 ## Conflicts
 
@@ -70,21 +95,26 @@ overflow (`minmax(0,1fr)`). The text-card grids use the law-3 template as writte
   exceed views. Only views, accounts reached, saves and shares are on the page.
 - The search index lists Rail Europe, Loop Earplugs, Workaway and Booking.com
   pieces that the current page no longer shows. Left off.
-- Brand spellings: hers are "Any Van", "SunVitD3", "FreshPet". Captions keep
-  hers; the brand list follows the logo where one is on her wall.
+- Brand spellings: hers are "Any Van", "SunVitD3", "FreshPet". Captions and
+  format cards keep hers; the logo and photo descriptions and the page
+  description follow each brand's own.
 
 ## Questions for the client
 
 1. What are the right likes and comments figures, and what platform and period
    do the results cover?
-2. Is Darcy0405ugc@gmail.com still the address for briefs?
-3. Are the dog and the cat yours, and can the page say so?
-4. Where are you based, and do you travel for shoots?
-5. Rates or a rate-card request on the page? Turnaround and usage rights?
-6. Can any testimonial carry a name or job title?
-7. Which four pieces per category should lead? The demo picks one per brand.
-8. Can you send the original video files and photographs?
-9. Are the Rail Europe, Loop, Workaway and Booking.com pieces still yours to show?
+2. Are the dog and the cat yours, and can the page say so?
+3. Where are you based, and do you travel for shoots?
+4. Rates or a rate-card request on the page? Turnaround and usage rights?
+5. Can any testimonial carry a name or job title?
+6. Which four pieces per category should lead? The demo picks one per brand
+   where it can; Property has three brands, so Merry Lakes shows twice.
+7. Can you send the original video files and photographs?
+8. Are the Rail Europe, Loop, Workaway and Booking.com pieces still yours to show?
+9. Which brands are the four unnamed marks on the logo wall: the owl face, the
+   H, the PK monogram and the teal loop?
+10. Happy for brand names to follow each brand's own spelling (AnyVan,
+    SunVit-D3, Freshpet)?
 
 ## Skill notes
 

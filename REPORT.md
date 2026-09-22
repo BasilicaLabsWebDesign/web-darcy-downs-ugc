@@ -2,8 +2,10 @@
 
 ## Status
 
-Committed as v1.0. Not pushed and not live: the push and the first Cloudflare
-connection are manual steps.
+v1.1 committed. Not pushed and not live: the push and the first Cloudflare
+connection are manual steps. v1.1 rewrote the offer page as title-and-subtitle
+pairs (problem over fix) and trimmed the rest; the site-pitch skill was updated
+to build it that way from now on.
 
 ## Layout
 

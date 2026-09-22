@@ -35,13 +35,18 @@ section{padding:56px 20px}
 .card .tag{position:absolute;top:0;right:0;background:var(--op-dark);
   color:#FFFAF6;font:600 11.5px/1 var(--op-body);padding:7px 9px}
 .card p{margin:0}
-table{width:100%;border-collapse:collapse;background:var(--op-bg)}
-th,td{padding:13px 14px;border:1px solid #E9D2CD;
-  text-align:left;vertical-align:top;font-size:15px}
-thead th{background:var(--op-dark);color:#FFFAF6;font-family:var(--op-display);
-  font-size:16px}
-td:first-child{width:50%}
-.tape-wrap{overflow-x:visible}
+/* Tale of the tape: pairs. The problem on top, quiet; the fix underneath,
+   in the dark band colour. Title and one-line subtitle each, nothing more. */
+.tape{display:grid;gap:18px;
+  grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr))} /* law 3 */
+.pair{display:grid;grid-template-rows:1fr 1fr;border:1px solid #E9D2CD;
+  background:var(--op-bg)}
+.pair>div{padding:22px 22px 24px}
+.pair .new{background:var(--op-dark);color:#FFFAF6}
+.pair .lbl{display:block;font:600 13px/1 var(--op-body);opacity:.75;
+  margin-bottom:12px}
+.pair h3{font-size:clamp(1.25rem,2.8vw,1.5rem);margin:0 0 .3em}
+.pair p{margin:0;font-size:15px;line-height:1.5}
 .price{font:700 clamp(2.6rem,9vw,4rem)/1 var(--op-display);
   font-variant-numeric:lining-nums}
 .price small{font:600 14px/1.35 var(--op-body);display:block;margin-top:10px;
@@ -56,6 +61,3 @@ td:first-child{width:50%}
   font-size:18px;margin-bottom:4px;font-variant-numeric:lining-nums}
 .closing{text-align:center}
 .closing p{margin:0 auto;font-size:1.15rem}
-@media (max-width:520px){
-  th,td{padding:11px 10px;font-size:14px}
-}

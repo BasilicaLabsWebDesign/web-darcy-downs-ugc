@@ -95,3 +95,4 @@ regenerate them.
 | Version | Title | Description |
 | --- | --- | --- |
 | v1.0 | Darcy's work, readable on a phone | A three-tab pitch for Darcy Downs: a new one-page site in her own colours with the work sorted into five tabs and pet brands first, her current page beside it for comparison, and the offer with its two prices. Every figure and quote on the new page comes from her own site, and the ones that did not add up were left off. |
+| v1.1 | The offer, read in under a minute | Each problem with the current site is now a short title and one line, with the fix directly beneath it in the same shape. The rest of the offer page is trimmed to match, so the whole pitch reads in under a minute. |

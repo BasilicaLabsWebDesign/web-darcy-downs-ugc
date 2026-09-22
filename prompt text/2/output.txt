@@ -1,0 +1,7 @@
+Done, v1.1. The tale of the tape is now five pairs: the problem as a title and one line, the fix straight underneath in the same shape, in the plum band colour so it reads as the answer. The header, the price paragraph and the terms are trimmed to match. One wording change on top: the price paragraph now opens "How is it this cheap?" instead of "Why it costs this", which is the framing that works better in your pitches, and the skill carries it too.
+
+Verified: the offer page is clean at all 13 widths from 320 to 1920 with the real fonts, and the phone preview was rebuilt and re-tested (no overflow at 320, 390 or 1280, no external requests until the current-site tab is opened).
+
+Skill updated in the zip below: `assets/offer-template.html` carries the pair layout with three sample pairs, `references/offer.md` now says pairs not a table (titles five words or fewer, subtitles one sentence, the whole page readable in under a minute), and SKILL.md stage 4 restates it. I rendered the raw template with sample tokens at 320, 390 and 1200 to check it lays out. Drop the folder over the installed one. The two bugs from yesterday (capture exiting clean on the proxy's deny page, no italics from the font script) are still open; I left them alone since you asked for one change.
+
+Three files: the phone preview, the repo with the v1.1 commit made, and the updated skill.

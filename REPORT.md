@@ -2,11 +2,33 @@
 
 ## Status
 
-v1.0 released to `main` on 22 September 2026. Not yet live: the first Cloudflare
-connection is a manual dashboard step. The two builds made before this
-repository existed (the three-tab demo, then the offer page rewritten as
-title-and-subtitle pairs, problem over fix) ship together as this first release;
-the site-pitch skill was updated to build the offer that way from now on.
+v1.1 released to `main` on 22 September 2026. Not yet live: the first Cloudflare
+connection is a manual dashboard step. v1.0 shipped the two builds made before
+this repository existed (the three-tab demo, then the offer page rewritten as
+title-and-subtitle pairs, problem over fix); the site-pitch skill was updated to
+build the offer that way from now on. v1.1 puts the logo files from her own
+page on the brands wall, shown whole, and adds the domain line to the offer.
+
+## v1.1 - the logo wall and the domain line
+
+- The owner supplied the live page saved from a browser (My_Portfolio.html and
+  its files folder, 22 September 2026). Its Trusted-by section holds 32 image
+  files; each one was matched to its tile on her wall using IMG_0391, and the
+  wall on `/` shows them in that order, each logo whole. Her page clips every
+  logo into a circle, which is where the cut-off words came from.
+- Four of the 32 marks carry no wordmark (an owl face, an H, a PK monogram, a
+  teal loop). They are on the wall without a name and the question is in the
+  brief. Beco, unreadable in the screenshot, is now named.
+- The offer's third pair kept its problem ("Logos cropped mid-word") and its
+  fix now says every logo is shown whole, which the first tab bears out.
+- The offer's last pair says DarcyDowns.com is available for £9.99 a year on
+  GoDaddy. Source: the owner, 22 September 2026. Domain prices and availability
+  move; re-check before the pitch is sent.
+- Verified: `wrangler deploy --dry-run` passes, every local `href` and `src`
+  resolves, and the wall and the tale of the tape were rendered at 320, 390 and
+  1440 with the real fonts: no horizontal overflow, every logo file loads. The
+  current-site frame is unchanged and still cannot be loaded from the build
+  machine.
 
 ## Layout
 

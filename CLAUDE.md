@@ -95,3 +95,4 @@ regenerate them.
 | Version | Title | Description |
 | --- | --- | --- |
 | v1.0 | Darcy's pitch, three tabs on one link | A three-tab pitch for Darcy Downs: a new one-page site in her own colours with the work sorted into five tabs and pet brands first, her current page beside it for comparison, and the offer with its two prices. Every figure and quote on the new page comes from her own site, the ones that did not add up were left off, and the offer reads as short problem-and-fix pairs so the whole pitch takes under a minute. |
+| v1.1 | Her logos on the wall, shown whole | The brands section now shows the 32 logos from her own page, each one whole instead of cut off inside a circle, in place of the list of names. The offer page says so in its logo card, and its last card now names her domain, DarcyDowns.com, with the price it can be had for today. |

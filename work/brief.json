@@ -1,7 +1,7 @@
 {
   "client": "darcydowns",
   "captured": "2026-09-21",
-  "capture_method": "Clean capture not possible from the build environment (egress to canva.site blocked). Sources are the owner's five iPhone screenshots of the live page (IMG_0391-0395, 21 Sep 2026), the raw HTML fetch, and the search-index text of the site.",
+  "capture_method": "Clean capture not possible from the build environment (egress to canva.site blocked). Sources are the owner's five iPhone screenshots of the live page (IMG_0391-0395, 21 Sep 2026), the raw HTML fetch, and the search-index text of the site. On 22 Sep 2026 the owner supplied the live page saved from a browser (My_Portfolio.html + My_Portfolio_files); its image files are the source for the logo wall.",
   "brand": {
     "colors": {
       "value": [
@@ -111,10 +111,11 @@
         "O'Pasta",
         "Speak",
         "Vonder",
-        "Merry Lakes"
+        "Merry Lakes",
+        "Beco"
       ],
-      "source": "site:screenshot IMG_0391 logo wall (27 of 32 logos legible) + IMG_0392-0394 video captions",
-      "seen": "2026-09-21",
+      "source": "site:saved page My_Portfolio_files, the 32 logo images in the Trusted-by wall (28 carry a wordmark; the four that do not are on the wall unnamed) + IMG_0392-0394 video captions",
+      "seen": "2026-09-22",
       "confidence": "confirmed"
     },
     "stats_used": {
@@ -252,7 +253,7 @@
     "No location, age bracket or kit anywhere public - no About section built.",
     "No rates, packages, turnaround or usage-rights terms - none stated on the new page.",
     "Testimonials carry no name or role.",
-    "Five of the 32 logos were not legible in the screenshot and are left out of the brand list.",
+    "Four of the 32 logo marks carry no wordmark (an owl face, an H, a PK monogram, a teal loop); they are on the wall without a name.",
     "No video files or full-size images: every still and photo on the demo is a crop from a phone screenshot, upscaled 2x."
   ],
   "questions": [
@@ -264,7 +265,8 @@
     "Can any testimonial carry a name or job title?",
     "Which four pieces per category do you want leading - the demo picks one per brand?",
     "Can you send the original video files and photos? The demo uses screenshot crops.",
-    "Are the Rail Europe, Loop, Workaway and Booking.com pieces still available to show?"
+    "Are the Rail Europe, Loop, Workaway and Booking.com pieces still available to show?",
+    "Which brands are the four unnamed marks on the logo wall: the owl face, the H, the PK monogram and the teal loop?"
   ],
   "photos": [
     {
@@ -290,6 +292,13 @@
       "source": "site:screenshot IMG_0394 Photography",
       "theirs": true,
       "cleared": false
+    },
+    {
+      "file": "assets/img/logo-*.webp (32 logos)",
+      "source": "site:saved page My_Portfolio_files, 2026-09-22 - the same files her page shows, each shown whole",
+      "theirs": false,
+      "cleared": false,
+      "note": "The brands' own marks, shown on her page today; used here exactly as she uses them."
     }
   ],
   "layout": {

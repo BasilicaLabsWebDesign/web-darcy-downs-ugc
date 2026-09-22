@@ -53,6 +53,8 @@ deploys. Check first with `npm run check`.
 ## Images are placeholders
 
 Every still, photograph and portrait is a crop from a phone screenshot of her
-current page, upscaled 2x. They are hers, shown back to her in her own pitch,
+current page, upscaled 2x. The 32 logos are the exception: they are the image
+files from her page itself, saved from a browser on 22 September 2026, and
+shown whole. They are hers, shown back to her in her own pitch,
 and not cleared for anything beyond this demo. The finished build takes her
 original files.

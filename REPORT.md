@@ -2,10 +2,11 @@
 
 ## Status
 
-v1.1 committed. Not pushed and not live: the push and the first Cloudflare
-connection are manual steps. v1.1 rewrote the offer page as title-and-subtitle
-pairs (problem over fix) and trimmed the rest; the site-pitch skill was updated
-to build it that way from now on.
+v1.0 released to `main` on 22 September 2026. Not yet live: the first Cloudflare
+connection is a manual dashboard step. The two builds made before this
+repository existed (the three-tab demo, then the offer page rewritten as
+title-and-subtitle pairs, problem over fix) ship together as this first release;
+the site-pitch skill was updated to build the offer that way from now on.
 
 ## Layout
 
@@ -73,3 +74,7 @@ overflow (`minmax(0,1fr)`). The text-card grids use the law-3 template as writte
 - `demo-bar.html`: only the `<style>` and `<nav>` were inserted, not the
   instruction comment, which contains a literal marker and tags.
 - `verify-layout.js` was run with an absolute `--dir`.
+- `render_check.py` (cloudflare-static-site): headless Chromium lays out at a
+  500px minimum whatever `--window-size` asks for, so its 390-wide shots crop a
+  500px layout and look overflowed. Measured at exact 320 and 390 viewports with
+  Playwright instead: no overflow.

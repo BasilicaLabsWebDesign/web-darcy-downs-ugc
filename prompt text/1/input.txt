@@ -1,0 +1,31 @@
+https://darcyugcportfolio.my.canva.site/my-portfolio
+
+How would you improve this website?
+
+Here are the visuals
+
+Build it
+
+Continue
+
+can you change the sales pitch? it needs a lot less text
+
+explauin the current problem a title and subtitle
+
+then make the new version the same underneath - title and subtitle
+
+update the skill to do this
+
+make this repo
+
+use all the git skills.md
+
+make this start at v1.0
+
+Clone the repository OttomanLabsAI/web-darcy-downs-ugc into this session.
+
+i started the wrong for this chat
+
+can you deleted everything from get-fit-with sonia?
+
+and make thsi same thing in the new repo

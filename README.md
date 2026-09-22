@@ -1,4 +1,4 @@
-# darcydowns-web
+# web-darcy-downs-ugc
 
 Pitch demo for Darcy Downs, UGC creator. Three pages joined by a demo bar:
 

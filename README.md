@@ -22,6 +22,7 @@ public/                 everything served - no build step
   assets/css            site.css (new site + 404), offer.css
   assets/js             site.js - the brief form writes the email
   assets/img            stills, photographs and logos (see below)
+  assets/video          the 16 clips in the work tabs (see below)
   fonts/                Playfair Display and Inter, self-hosted
   _headers  robots.txt  favicon.svg
 work/brief.json         the sourced brief: every fact on the new site traces here
@@ -50,7 +51,11 @@ deploys. Check first with `npm run check`.
 - The brief form opens a `mailto:` to the address in the brief. Nothing is
   posted anywhere.
 
-## Images are placeholders
+## Images and clips are placeholders
+
+The 16 clips in the work tabs are the copies her Canva page plays, downloaded
+by the owner on 1 October 2026 and re-encoded at 540x960 so each file stays
+well under Cloudflare's 25 MiB limit; each still is now the clip's poster.
 
 Every still, photograph and portrait is a crop from a phone screenshot of her
 current page, upscaled 2x. They are hers, shown back to her in her own pitch,

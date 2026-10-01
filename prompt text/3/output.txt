@@ -1,20 +1,11 @@
-Done. v1.2 is on main. I proofread the whole pitch against the brief and against the copy of her page you saved.
+Done. v1.2 is on main. It carries the proofread from before, and the work tabs now play her real clips.
 
-One claim was wrong. "Four pieces in each, one brand apiece" sat above the tabs on the new site and in the offer's second fix. Her page has only three property brands, so the Property tab shows Merry Lakes twice, and the Photos tab holds six pieces. The lede now reads "Pick your corner." and the fix reads "One tap to the right corner."
+All 32 videos you sent arrived intact, and each one's length matches its video on her page. I matched the 16 cards in the work tabs to their videos frame by frame and checked every match by eye. Each card now plays its own clip and shows the old still as its cover until someone presses play. The demo note under the tabs now says the clips are the copies her page plays and that the finished site will use her originals.
 
-Smaller fixes on the pages:
-- "Only the figures that hold up" is now "Only figures that hold up". That's five words, as the offer sheet asks, and it no longer leaves "up" alone on a second line at desktop widths.
-- "My Portfolio" no longer breaks across two lines.
-- The current-site strip said "Their live site" to Darcy herself. It now says "Your live site", like the rest of the pitch.
-- Three image descriptions are corrected: "thirty-second", "mid-repair", and a stray "reading" removed.
+The 16 originals came to 230 MB, and one was over Cloudflare's 25 MB per-file limit. I re-encoded them at 540x960: 84 MB in all, the largest 17 MB, and still sharp at the size the cards show them. Nothing downloads until a clip is played, so the page loads as fast as before.
 
-The notes had drifted. The README had started calling the 32 logos hers; they are the brands' own marks, as the brief says. The saved page confirms her email (both Get in touch buttons link to Darcy0405ugc@gmail.com), so the brief now marks it confirmed and that question is gone. The report's questions now match the brief: the four unnamed marks and the brand spellings are added, and the question about leading pieces notes that Property repeats Merry Lakes.
+The proofread ships in the same release: the "one brand apiece" claim is gone from the new site and the offer, the offer's titles and the current-site note are corrected, and the README, brief and report agree again.
 
-Three things I left for you:
-- The "Results" link in the top bar jumps to the testimonials, not the numbers.
-- The sales-wording rules want the struck-through range as £1.5k–£8k, but the offer sheet keeps £1,500–£8,000. I kept the sheet's version.
-- Five offer subtitles run to two sentences where the sheet asks for one. Fixing that means rewriting the offer, so they stay as they are.
+The prompt archive is at version 3 with your two messages. The 32 videos you sent are not in it: at 404 MB they would make every copy of the repo heavy, and the 16 the page uses are in the site itself. Say if you want them added anyway. The model file names Anthropic and Claude but not the model, because this environment doesn't allow model names in repository files.
 
-The prompt archive is now at version 3 with your message. Its model file names Anthropic and Claude but not the model, because this environment doesn't allow model names in repository files. The third line says so, and you can fill it in.
-
-Verified: the dry-run deploy passes. All four pages and all five tabs were rendered at 320, 390, 768 and 1440 with the real fonts. Every local link and image resolves, every image loads at its stated size, and nothing overflows. The offer's card titles were measured from 320 to 1920. Screenshots of the new site and the offer, at phone and desktop widths, are attached. The current-site frame still can't load from this machine, and if the repo isn't connected in the Cloudflare dashboard yet, that is still the step that puts it live.
+Verified: the dry-run deploy passes. I rendered the new site at 320, 390 and 1440 with each tab open: every video and cover image loads, and nothing spills off the page. Every clip decodes cleanly from start to finish, but the browser I test with can't play this video format, so press play on a couple yourself once it's live. If the repo isn't connected in the Cloudflare dashboard yet, that's still the step that puts it live.

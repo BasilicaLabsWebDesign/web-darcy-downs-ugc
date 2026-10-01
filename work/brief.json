@@ -254,7 +254,7 @@
     "No rates, packages, turnaround or usage-rights terms - none stated on the new page.",
     "Testimonials carry no name or role.",
     "Four of the 32 logo marks carry no wordmark (an owl face, an H, a PK monogram, a teal loop); they are on the wall without a name.",
-    "No video files or full-size images: every still and photo on the demo is a crop from a phone screenshot, upscaled 2x."
+    "No original video files or full-size images: the 16 clips are the copies her Canva page plays (720p at best, re-encoded to 540x960), and every still and photo is a crop from a phone screenshot, upscaled 2x."
   ],
   "questions": [
     "What are the right likes and comments figures, and what platform and period do the results cover?",
@@ -269,6 +269,12 @@
     "Happy for brand names to follow each brand's own spelling?"
   ],
   "photos": [
+    {
+      "file": "assets/video/*.mp4 (16 clips)",
+      "source": "site:the video files her Canva page plays, downloaded by the owner 2026-10-01 and matched to each card's still frame by frame",
+      "theirs": true,
+      "cleared": false
+    },
     {
       "file": "assets/img/hero-darcy.webp",
       "source": "site:screenshot IMG_0391 hero",

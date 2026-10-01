@@ -8,10 +8,11 @@ this repository existed (the three-tab demo, then the offer page rewritten as
 title-and-subtitle pairs, problem over fix); the site-pitch skill was updated to
 build the offer that way from now on. v1.1 puts the logo files from her own
 page on the brands wall, shown whole, and adds the domain line to the offer.
-v1.2 is a proofreading pass: a claim the page could not back is gone, and the
-pages, the brief and this report agree again.
+v1.2 is a proofreading pass (a claim the page could not back is gone, and the
+pages, the brief and this report agree again) and puts her real clips in the
+work tabs.
 
-## v1.2 - the proofreading pass
+## v1.2 - the proofreading pass and the clips
 
 - "Four pieces in each, one brand apiece" is gone from `/` and from the offer's
   second fix. Her page has only three property brands, so the Property tab
@@ -30,6 +31,12 @@ pages, the brief and this report agree again.
 - The README no longer calls the logos hers; they are the brands' own marks, as
   the brief records. The questions below now match the brief, with the four
   unnamed marks and the brand spellings added.
+- The work tabs now play. The owner downloaded the 32 videos her page plays
+  (1 October 2026); each of the 16 cards was matched to its video frame by
+  frame, and every match was checked by eye. They are re-encoded at 540x960
+  (84 MB in all, the largest 17 MB, under Cloudflare's 25 MiB per-file limit),
+  load only when played, and use the old still as the poster. The demo note
+  now says what they are.
 - Verified: `wrangler deploy --dry-run` passes; all four pages and all five tab
   panels were rendered at 320, 390, 768 and 1440 with the real fonts. Every
   local `href` and `src` resolves, every image loads at its stated size, and
@@ -87,6 +94,9 @@ overflow (`minmax(0,1fr)`). The text-card grids use the law-3 template as writte
   is the fallback working as designed. Whether Canva permits framing was not
   testable. If it refuses, the strip's open-in-its-own-tab link is the remainder.
 - Images are 2x upscaled crops from phone screenshots. Soft on a retina screen.
+- The headless browser here cannot play H.264, so playback was not watched in a
+  browser; every clip decodes cleanly end to end and every file and poster
+  resolves.
 - The display face was identified by eye as Playfair Display.
 
 ## Conflicts

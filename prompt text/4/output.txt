@@ -1,0 +1,11 @@
+Fixed and released: v1.3 is on main.
+
+The videos spilled out because Safari let each one keep its own width instead of shrinking to fit the card. The card now keeps its clip inside it, and the clip box is the videos' own 9:16 shape, so nothing gets cropped either.
+
+The preview was blurry because it was still the old cover image: a cropped phone screenshot, blown up. The play button you clicked was part of that picture, a screenshot of the button on her Canva page, which is why nothing happened. Each cover is now a sharp frame from the clip itself, and the old pictures are gone.
+
+Each clip now has one real play button in the middle. Pressing it starts that clip, stops any other that's playing, and brings up the normal controls along the bottom.
+
+Verified: the dry-run deploy passes, and I rendered the work tabs at 320, 390, 768 and 1440 pixels wide. Every clip sits inside its card, nothing spills off the page, every cover loads, and the button brings up the controls. I can't run Safari here, so please check it on your Mac once Cloudflare has updated the site. The card now trims anything wider than itself, whatever the browser does.
+
+The prompt archive is at version 4 with your message and your screenshot.

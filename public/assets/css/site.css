@@ -142,10 +142,11 @@ h1 em{display:block;font-style:italic;color:var(--accent)}
    purpose: auto-fit strands one clip on a row of its own at mid widths. */
 .reel{display:grid;gap:12px;grid-template-columns:repeat(2,minmax(0,1fr))}
 @media (min-width:760px){.reel{gap:18px;grid-template-columns:repeat(4,minmax(0,1fr))}}
-.clip{position:relative;background:var(--bg);border:1px solid var(--frame);
-  padding:8px 8px 12px}
+.clip{position:relative;min-width:0;overflow:hidden;background:var(--bg);
+  border:1px solid var(--frame);padding:8px 8px 12px}
 .clip img,.clip video{width:100%;aspect-ratio:203/348;object-fit:cover;
   border:4px solid var(--frame);margin-bottom:10px}
+.clip video{aspect-ratio:9/16;background:#000}  /* the clips' own shape, nothing cropped */
 .clip p{margin:3px 0 0;font-size:.86rem;line-height:1.35;max-width:none}
 .tag{position:absolute;top:0;right:0;z-index:1;background:var(--action);
   color:var(--on-dark);font:600 .72rem/1 var(--body);padding:7px 9px}
@@ -225,3 +226,14 @@ figcaption{font-size:.9rem;font-weight:600;opacity:.9}
 .lost{min-height:62vh;display:grid;align-content:center}
 
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* clips: the play button site.js lays over each poster */
+.vid{position:relative;margin-bottom:10px}
+.vid video{margin-bottom:0}
+.play{position:absolute;inset:4px;display:grid;place-items:center;border:0;
+  padding:0;background:transparent;cursor:pointer}
+.play::before{content:"";width:56px;height:56px;border-radius:50%;
+  background:rgba(12,12,12,.55) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M8 5v14l11-7z' fill='%23fff'/%3E%3C/svg%3E") 55% 50%/26px no-repeat}
+.play:hover::before{background-color:rgba(105,56,67,.85)}
+.play:focus-visible{outline:3px solid var(--on-dark);outline-offset:-6px}
+.play[hidden]{display:none}

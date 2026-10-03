@@ -55,7 +55,8 @@ deploys. Check first with `npm run check`.
 
 The 16 clips in the work tabs are the copies her Canva page plays, downloaded
 by the owner on 1 October 2026 and re-encoded at 540x960 so each file stays
-well under Cloudflare's 25 MiB limit; each still is now the clip's poster.
+well under Cloudflare's 25 MiB limit. Each clip's poster is a frame of the clip
+itself (`assets/video/*.webp`), and site.js lays one play button over it.
 
 Every still, photograph and portrait is a crop from a phone screenshot of her
 current page, upscaled 2x. They are hers, shown back to her in her own pitch,

@@ -288,8 +288,8 @@
       "cleared": false
     },
     {
-      "file": "assets/img/pet-*.webp, well-*.webp, life-*.webp, prop-*.webp (16 video stills)",
-      "source": "site:screenshot IMG_0392-0394",
+      "file": "assets/video/*.webp (16 clip posters)",
+      "source": "a frame of each clip in assets/video, matching the still her page shows (IMG_0392-0394)",
       "theirs": true,
       "cleared": false
     },

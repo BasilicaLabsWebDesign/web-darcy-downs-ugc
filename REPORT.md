@@ -2,7 +2,7 @@
 
 ## Status
 
-v1.2 released to `main` on 22 September 2026. Not yet live: the first Cloudflare
+v1.3 released to `main` on 3 October 2026. Not yet live: the first Cloudflare
 connection is a manual dashboard step. v1.0 shipped the two builds made before
 this repository existed (the three-tab demo, then the offer page rewritten as
 title-and-subtitle pairs, problem over fix); the site-pitch skill was updated to
@@ -10,7 +10,25 @@ build the offer that way from now on. v1.1 puts the logo files from her own
 page on the brands wall, shown whole, and adds the domain line to the offer.
 v1.2 is a proofreading pass (a claim the page could not back is gone, and the
 pages, the brief and this report agree again) and puts her real clips in the
-work tabs.
+work tabs. v1.3 makes the clips sit properly: whole, sharp, one play button.
+
+## v1.3 - the clips, fitted
+
+- The owner saw the clips spill past their cards in Safari, a soft poster and
+  a play button that did nothing. The card now keeps its clip inside it
+  (`min-width:0`, overflow clipped) and the clip box is 9:16, the clips' own
+  shape, so nothing is cropped.
+- The posters were the old upscaled screenshot stills, with her page's play
+  icon baked in, which is why clicking it did nothing. Each poster is now a
+  sharp 540x960 frame of the clip itself, and the 16 old stills are gone.
+- One real play button sits over each poster; pressing it starts the clip,
+  pauses any other, and brings up the native controls. Without the script
+  the clips keep their native controls.
+- Verified: `wrangler deploy --dry-run` passes; the work tabs were rendered at
+  320, 390, 768 and 1440 in Chromium: every clip sits inside its card, nothing
+  overflows, every poster loads, and the button hands over to the controls.
+  WebKit is not available on the build machine, so Safari itself was not run;
+  the card now clips anything wider than itself, whatever the browser does.
 
 ## v1.2 - the proofreading pass and the clips
 

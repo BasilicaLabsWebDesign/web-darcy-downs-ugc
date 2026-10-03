@@ -15,3 +15,30 @@
       encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
   });
 })();
+
+/* Clips: one real play button over each poster. Native controls appear once
+   it plays. Without this script the videos keep their native controls. */
+(function () {
+  document.querySelectorAll('.clip video').forEach(function (video) {
+    var wrap = document.createElement('div');
+    wrap.className = 'vid';
+    video.parentNode.insertBefore(wrap, video);
+    wrap.appendChild(video);
+    video.controls = false;
+    var name = video.closest('.clip').querySelector('h4');
+    var button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'play';
+    button.setAttribute('aria-label', 'Play the ' + (name ? name.textContent : '') + ' clip');
+    wrap.appendChild(button);
+    button.addEventListener('click', function () {
+      document.querySelectorAll('.clip video').forEach(function (other) {
+        if (other !== video) other.pause();
+      });
+      button.hidden = true;
+      video.controls = true;
+      var played = video.play();
+      if (played && played.catch) played.catch(function () {});
+    });
+  });
+})();
